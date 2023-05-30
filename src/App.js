@@ -1,13 +1,13 @@
-import { useState } from "react";
+
 import Banner from "./Componentes/Banner";
 import Formulario from "./Componentes/Formulario";
 import Time from "./Componentes/Time";
-
+import Hook from "./Componentes/Hook";
 
 
 function App() {
 
-  const [alunos, setAlunos] = useState([])
+  const [alunos, setAlunos] = Hook("alunos",[])
 
   const times = [
     {
