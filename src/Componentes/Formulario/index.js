@@ -69,7 +69,7 @@ const Formulario = (props) => {
                 valor={time}
                 aoAlterado={valor => setTime(valor)}
                 />
-                <Botao texto={"Cria Aluno"}/>
+                <Botao texto={"Criar Aluno"}/>
             </form>
         </section>
     )
